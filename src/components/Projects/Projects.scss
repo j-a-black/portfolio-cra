@@ -1,0 +1,36 @@
+.heading-sec {
+  margin-bottom: 2.5rem;
+  text-align: center;
+
+  .heading-sec__title {
+    display: block;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  .heading-sec__title::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2.5px;
+    background-color: black;
+    margin: 2rem auto;
+  }
+
+  .heading-sec__sub {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+
+.projects-content {
+  width: 95%;
+  max-width: 602px;
+  border: 1px solid #ccc;
+  box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

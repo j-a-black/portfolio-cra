@@ -1,0 +1,15 @@
+@import "../../App.scss";
+
+.footer {
+  // background-color: #2c3e50;
+  background-color: #222f3e;
+  color: white;
+  padding: 3rem 0;
+
+  .footer__title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+  }
+}

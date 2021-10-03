@@ -1,0 +1,26 @@
+.navbar-projects {
+  width: 100%;
+  max-width: 760px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.2);
+
+  span {
+    padding: 10px;
+    display: block;
+    flex-grow: 1;
+    cursor: pointer;
+  }
+
+  span:hover {
+    background-color: #eee;
+  }
+}
+
+.project-info {
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 1024px;
+}

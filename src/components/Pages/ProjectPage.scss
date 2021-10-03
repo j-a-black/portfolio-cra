@@ -1,0 +1,44 @@
+@import "../../App.scss";
+
+.page-container {
+  padding: 5rem 0.5rem;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  line-height: 1.6rem;
+}
+
+.navbar-projects {
+  margin-bottom: 5rem;
+  width: 100%;
+  max-width: 760px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.2);
+
+  span {
+    padding: 10px;
+    display: block;
+    flex-grow: 1;
+    cursor: pointer;
+  }
+
+  span:hover {
+    background-color: #eee;
+  }
+
+  .active {
+    border-bottom: 2px solid $trimm-color;
+  }
+}
+
+.project-window {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 1024px;
+}

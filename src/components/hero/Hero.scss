@@ -1,0 +1,30 @@
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../images/h2.png");
+  height: calc(100vh - 60px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: grid;
+  place-items: center;
+
+  .hero-text {
+    width: 100%;
+    max-width: 1024px;
+    font-size: 2rem;
+    font-weight: 100;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    .hero-text {
+      font-size: 3rem;
+    }
+  }
+}
