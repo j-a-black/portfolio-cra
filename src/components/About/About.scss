@@ -39,9 +39,21 @@
   align-items: center;
   box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.2);
 
+  &:hover {
+    .skill-content__icon {
+      color: rgb(172, 0, 172);
+    }
+
+    .skill-content__text {
+      padding-left: 50px;
+      color: rgb(172, 0, 172);
+    }
+  }
+
   .skill-content__icon {
     font-size: 2rem;
     color: $trimm-color;
+    transition: color 0.3s ease-out;
   }
 
   .skill-content__text {
@@ -49,5 +61,6 @@
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: 1px;
+    transition: all 0.3s ease-out;
   }
 }

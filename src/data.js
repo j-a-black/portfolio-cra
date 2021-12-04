@@ -113,21 +113,21 @@ export const projects = [
       <p>
         Website design was derived from{" "}
         <a
-          alt="charlie ralph portfolio"
-          href="https://dribbble.com/shots/7327792-Bakin-bread"
+          alt="Emporium Pies"
+          href="https://emporiumpies.com/"
           target="_blank"
           rel="noreferrer"
         >
-          Charlie Ralph
+          Emporium Pies
         </a>{" "}
         and{" "}
         <a
-          alt="The Omaha Bakery"
-          href="https://www.theomahabakery.com/"
+          alt="Mah Ze Dahr"
+          href="https://mahzedahrbakery.com/"
           target="_blank"
           rel="noreferrer"
         >
-          The Omaha Bakery
+          Mah Ze Dahr
         </a>
         .
       </p>,
