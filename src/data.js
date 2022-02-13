@@ -135,16 +135,34 @@ export const projects = [
   },
   {
     title: "Brochure Website",
-    description: "Advertising website for a fictitious catering company",
-    href: "https://seasidecatering.jasonanthonblack.com/",
+    description: "Landing page for a fictitious catering company",
+    href: "https://oceansidecatering.jasonanthonblack.com/",
     backgroundImage: Brochure,
-    github: "https://github.com/j-a-black/brochure",
+    github: "https://github.com/j-a-black/seaside-catering-cra",
     content: [
       <h2>Purpose and Objectives</h2>,
       <p>
-        The purpose of this project was to create a simple advertisement website
-        for a fictitious private catering services. Website design was derived
-        from{" "}
+        The purpose of this project was to become familiar with React by
+        creating a simple landing page for a fictitious catering company. My
+        objectives were to:
+      </p>,
+      <ol>
+        <li>Develop a basic understanding of components</li>
+        <li>
+          Develop a basic understanding of passing props to child components
+        </li>
+        <li>Develop a basic understanding of hooks</li>
+        <li>Use hooks to toggle mobile menu </li>
+      </ol>,
+      <p>
+        {" "}
+        This webpage will continue to develop and additional content will be
+        added, but for the time being, the landing page will be the only content
+        presented.{" "}
+      </p>,
+
+      <p>
+        Website design was derived from{" "}
         <a
           alt="The Highland Kitchen"
           href="https://www.thehighlandkitchen.com/"
