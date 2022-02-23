@@ -9,10 +9,10 @@ export const text = [<>Objective and purpose</>];
 export const projects = [
   {
     title: "Recipe Search App",
-    description: "Search for recipes based on a single ingredient",
-    href: "https://mealify.jasonanthonblack.com/",
+    description: "Search for recipes based on a single ingredient (React)",
+    href: "https://cupboard.jasonanthonblack.com/",
     backgroundImage: Mealify,
-    github: "https://github.com/j-a-black/mealify",
+    github: "https://github.com/j-a-black/cupboard-cra",
     content: [
       <h2>Purpose and Objectives</h2>,
       <p>
@@ -74,7 +74,7 @@ export const projects = [
   },
   {
     title: "Shopping Cart",
-    description: "Shopping Cart feature for a fictitious bakery",
+    description: "Shopping Cart feature for a fictitious bakery (JS/ES6)",
     href: "https://shoppe.jasonanthonblack.com/",
     backgroundImage: Shoppe,
     github: "https://github.com/j-a-black/shoppe-v2",
@@ -135,7 +135,7 @@ export const projects = [
   },
   {
     title: "Brochure Website",
-    description: "Landing page for a fictitious catering company",
+    description: "Landing page for a fictitious catering company (React)",
     href: "https://oceansidecatering.jasonanthonblack.com/",
     backgroundImage: Brochure,
     github: "https://github.com/j-a-black/seaside-catering-cra",
